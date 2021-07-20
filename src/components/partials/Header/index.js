@@ -6,7 +6,7 @@ const Header = ()=>{
 	let logged = isLogged();
 	const handleLogout = ()=>{
 		doLogout();
-		window.location.href = '/';//
+		window.location.href = '/';
 	}
 	return(
 			<HeaderArea>
